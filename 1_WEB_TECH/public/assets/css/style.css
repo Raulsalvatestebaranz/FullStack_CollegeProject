@@ -1,0 +1,8 @@
+/* Hero image uniform sizing */
+.hero-img {
+    width: 100%;
+    height: 180px;     /* Controls height of ALL images */
+    object-fit: cover; /* Crops images to fill the area */
+    border-radius: 8px;
+    border: 2px solid green;
+}
