@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Rock Paper Scissors</title>
+  <style>
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Rock Paper Scissors Game</h2>
+
+  <button data-choice="rock">Rock</button>
+  <button data-choice="paper">Paper</button>
+  <button data-choice="scissors">Scissors</button>
+
+  <p id="player">Your Choice:</p>
+  <p id="computer">Computer Choice:</p>
+  <p id="result">Result:</p>
+
+  <!-- defer makes sure script runs after HTML is parsed -->
+  <script src="script.js" defer></script>
+</body>
+</html>
