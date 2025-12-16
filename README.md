@@ -6,6 +6,32 @@ This repository includes projects across **Web Technologies**, **Relational Data
 
 ---
 
+## 🌍 Running the Web Application (PHP)
+
+The Web Technologies project uses **PHP and MySQL** and is designed to run in a **local development environment**.
+
+Because GitHub Pages only supports static files (HTML, CSS, JavaScript), the PHP application **cannot be viewed as a live website via a public URL**.
+
+### 🔧 Local Setup (Recommended)
+
+To run the application locally:
+
+1. Install **XAMPP**
+2. Start **Apache** and **MySQL**
+3. Place the project inside the `htdocs` directory
+4. Import the database schema from the `/sql` folder using **phpMyAdmin**
+5. Open the application in a browser at:
+
+http://localhost/codespace/FullStack_CollegeProject/1_WEB_TECH/public/
+
+### 📸 Visual Evidence
+
+Screenshots of the application running locally, including CRUD functionality and database interaction, are included in the repository for assessment purposes.
+
+This setup follows standard practice for PHP/MySQL development taught during the course.
+
+---
+
 ## 📚 Table of Contents
 - 📘 Overview
 - 📂 Repository Structure
@@ -23,9 +49,9 @@ This repository includes projects across **Web Technologies**, **Relational Data
 
 This repository is the **central academic portfolio** for projects, exercises, labs, and documentation created across the three main modules of the course:
 
-### ✔ 1. Web Technologies (HTML, CSS, JS, PHP, Bootstrap)  
-### ✔ 2. Relational Databases (ERD, SQL, Data Dictionary, MySQL)  
-### ✔ 3. Testing Technologies (JavaScript, Manual Testing, Cypress)
+- ✔ Web Technologies (HTML, CSS, JavaScript, PHP, Bootstrap)  
+- ✔ Relational Databases (ERD, SQL, Data Dictionary, MySQL)  
+- ✔ Testing Technologies (JavaScript, Manual Testing, Cypress)
 
 Projects include complete CRUD systems, relational database designs (FastBurgersNow), and dynamic PHP/Bootstrap web pages.
 
@@ -40,30 +66,37 @@ All work is structured clearly for **college assessment** and **GitHub portfolio
 FullStack_CollegeProject/
 │
 ├── 1_WEB_TECH/                 → Web development module
-│   ├── public/                 → PHP CRUD system (Bootstrap)
+│   ├── public/                 → PHP CRUD system (web root)
+│   │   └── assets/             → CSS, JS, images
 │   ├── config/                 → Database connection
 │   ├── includes/               → Navigation & footer components
-│   ├── assets/                 → CSS, JS, images
 │   ├── sql/                    → Database schema files
-│   └── docs/                   → Study notes & screenshots
+│   └── docs/                   → Documentation & screenshots
 │
 ├── 2_TESTING_TECH/             → Software testing module
-│   ├── games/                  → JavaScript games (RPS, Treasure, Calculator)
-│   ├── cypress/                → Automated web testing
+│   ├── challenges/             → JS challenges (Calculator, RPS, etc.)
+│   ├── games/                  → JavaScript games
 │   └── manual_tests/           → Test cases & worksheets
 │
 ├── 3_RELATIONAL_DB/            → Relational databases module
 │   ├── 1_Theory/               → ERD & database fundamentals
-│   ├── 2_College_Example_DB/   → Student/module/enrolment database
-│   ├── 3_FastBurgersNow_Final_DB/ → Full database project
+│   ├── 2_College_Example_DB/   → Example academic database
+│   ├── 3_FastBurgersNow_Final_DB/
+│   │   ├── ERD/
+│   │   ├── SQL_DDL/
+│   │   ├── SQL_DML/
+│   │   ├── Screenshots/        → Database evidence
+│   │   └── Reflection/
 │   └── 4_Jira_Scrum_Project/   → Sprint planning & evidence
+│
+├── cypress/                    → Automated testing (Cypress)
 │
 ├── app/                        → Optional integration area
 │   ├── php_app/
 │   ├── js_games/
 │   └── api/
 │
-└── assets/                     → Shared assets (CSS / images)
+└── assets/                     → Shared static assets
 
 ```
 
@@ -121,7 +154,7 @@ Includes:
 - Reflection  
 - Jira evidence  
 
-📘 See:  
+📘 See:
 - `/3_RELATIONAL_DB/README.md`  
 - `/3_RELATIONAL_DB/3_FastBurgersNow_Final_DB/README.md`
 
@@ -187,4 +220,6 @@ Percentages reflect the current submission and iteration state.
 Full-Stack Software Development Student  
 Edinburgh College (CodeSpace)
 ```
+
+---
 
