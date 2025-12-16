@@ -8,6 +8,7 @@
       padding: 10px 20px;
       margin: 5px;
       font-size: 18px;
+      cursor: pointer;
     }
   </style>
 </head>
@@ -15,15 +16,14 @@
 
   <h2>Rock Paper Scissors Game</h2>
 
-  <button data-choice="rock">Rock</button>
-  <button data-choice="paper">Paper</button>
-  <button data-choice="scissors">Scissors</button>
+  <button data-cy="rock" data-choice="rock">Rock</button>
+  <button data-cy="paper" data-choice="paper">Paper</button>
+  <button data-cy="scissors" data-choice="scissors">Scissors</button>
 
-  <p id="player">Your Choice:</p>
-  <p id="computer">Computer Choice:</p>
-  <p id="result">Result:</p>
+  <p id="player" data-cy="player">Your Choice:</p>
+  <p id="computer" data-cy="computer">Computer Choice:</p>
+  <p id="result" data-cy="result">Result:</p>
 
-  <!-- defer makes sure script runs after HTML is parsed -->
   <script src="script.js" defer></script>
 </body>
 </html>

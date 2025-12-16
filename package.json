@@ -1,0 +1,24 @@
+{
+  "name": "fullstack_collegeproject",
+  "version": "1.0.0",
+  "description": "A complete multi-module portfolio containing all coursework from the **FullStack Software Development** program at Edinburgh College.  \r This repository includes projects across **Web Technologies**, **Relational Databases**, **Testing Technologies**, and integrated full-stack development.",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raulsalvatestebaranz/FullStack_CollegeProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Raulsalvatestebaranz/FullStack_CollegeProject/issues"
+  },
+  "homepage": "https://github.com/Raulsalvatestebaranz/FullStack_CollegeProject#readme",
+  "devDependencies": {
+    "cypress": "^15.7.1"
+  }
+}

@@ -1,0 +1,115 @@
+/* ===============================
+   Calculator Alpha – UI System
+   Matches reference mobile design
+   =============================== */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.calculator {
+    max-width: 360px;
+    margin: 40px auto;
+    padding: 20px;
+
+    background: #f5f6f8;
+    border-radius: 22px;
+
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Display */
+.calculator__display {
+    height: 80px;
+    padding: 18px;
+
+    background: #1c1c1e;
+    color: #ffffff;
+
+    font-size: 2.4rem;
+    font-weight: 500;
+    text-align: right;
+
+    border-radius: 14px;
+    margin-bottom: 22px;
+
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Grid */
+.calculator__keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+}
+
+/* Base button */
+.key {
+    height: 64px;
+    border: none;
+    border-radius: 14px;
+
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    cursor: pointer;
+    transition: all 0.12s ease;
+}
+
+/* Numbers */
+.key--number {
+    background: #ffffff;
+    border: 1px solid #e1e1e1;
+}
+
+.key--number:hover {
+    background: #f0f0f0;
+}
+
+/* Operators (right column rail) */
+.key--operator {
+    background: #4f5b8c;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.key--operator:hover {
+    background: #3f4972;
+}
+
+/* Equals */
+.key--equals {
+    background: #f4a261;
+    color: #ffffff;
+    font-weight: 700;
+
+    box-shadow: 0 4px 10px rgba(244, 162, 97, 0.45);
+}
+
+.key--equals:hover {
+    background: #e8924a;
+}
+
+/* Clear */
+.key--clear {
+    background: #f4a261;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.key--clear:hover {
+    background: #e8924a;
+}
+
+/* Backspace */
+.key--back {
+    background: #ff6b6b;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.key--back:hover {
+    background: #ff4c4c;
+}
